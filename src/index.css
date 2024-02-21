@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins';
+}
+main{
+  display: flex;
+}
+.nav-link{
+  cursor: pointer;
+}
+.content{
+  margin: 2rem;
+}
+
+.nav-heading{
+  font-weight: 500;
+  font-size: 1.8rem !important;
+}
+.todos-contanier{
+  margin: 2rem;
+}
+
+
+.list-group-item {
+  display: flex;
+}
+
+.btn{
+  align-self: flex-end;
+}
+
+.todo-icons{
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.todo-icons > svg{
+  cursor: pointer;
+}
